@@ -7,12 +7,22 @@ for i in range (int(number)):
 print 'Here is your array: ', array_of_numbers
 count=0
 sum=0
+largest=-1
+smallest=None
 for iterator in array_of_numbers:
     sum=sum+iterator
     count=count+1
+    if iterator>largest:
+        largest=iterator
+    if smallest is None:
+        smallest=iterator
+    elif iterator<smallest:
+        smallest=iterator
 print 'Count of elements is: ', count
 print 'Sum is: ', sum
 print 'Average is: ', sum/count
+print 'Largest element is: ', largest
+print 'Smallest element is: ', smallest
 search_critera = raw_input('Search numbers greater than ? ')
 n = int(search_critera)
 none_found=True
@@ -27,7 +37,7 @@ search_critera_2 = raw_input('Check if a number exists in the array. Tell me wha
 n = int(search_critera_2)
 for i in array_of_numbers:
     if i==n:
-        print 'Found', i, '.'
+        print 'Found', i
         found=True
         break
 if found==False:
