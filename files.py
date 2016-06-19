@@ -15,7 +15,7 @@ print 'FILE PROPERTIES: Line count: ', count, 'char count: ', len(input)
 print '----------------------------------------------------------------------'
 print 'This file contains lines starting with @, # and $. You can mention one\nof the special character and i will fetch those lines for you: '
 print '----------------------------------------------------------------------'
-filter=raw_input()
+filter=raw_input('>')
 no_match = False
 print 'Filter Criteria: '+ filter
 print 'OK HERE YOU GO\n.\n.\n.\n.'
