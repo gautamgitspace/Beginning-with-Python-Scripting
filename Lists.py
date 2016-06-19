@@ -37,17 +37,28 @@ print 'after sort: ', friends
 #built in functions
 list = list()
 i=0
-print "Enter numbers and i'll calculate the avg for you. Type 'done' when you are done"
+print "Enter numbers and i'll calculate the max, min, avg for you. Type 'done' when you are actually done"
 while True:
-    number = raw_input('number: ')
-    if number=='done':
-        break
-    else:
-        n=int(number)
-        list.append(n)
+    try:
+        number = raw_input('number: ')
+        if number=='done':
+            break
+        else:
+            n=float(number)
+            list.append(n)
+    except:
+        print 'INVALID INPUT FOOL'
 count=len(list)
 total=sum(list)
-print 'MAX: ', max(list)
-print 'MIN: ', min(list)
-avg=total/count
-print 'avg is: ', avg
+if len(list)!=0:
+    print 'MAX: ', max(list)
+    print 'MIN: ', min(list)
+    avg=total/count
+    print 'avg is: ', avg
+#split: python does the hard work of finding the spaces. many spaces = 1 space
+abc = 'hello I am Wayne'
+splitter = abc.split()
+print splitter
+xyz = 'itemName; itemID; itemPrice; itemAisle'
+splitter2 = xyz.split(';')
+print  splitter2

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e75397-cbc0-4de5-81ed-78b3271f4c52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lists.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/7point2.py" afterPath="$PROJECT_DIR$/files7point2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/continueAndBreakUse.py" afterPath="$PROJECT_DIR$/continueAndBreakUse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files.py" afterPath="$PROJECT_DIR$/files.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lists.py" afterPath="$PROJECT_DIR$/Lists.py" />
     </list>
     <ignored path="pay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +26,8 @@
       <file leaf-file-name="Lists.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="203">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -533,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="203">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>
