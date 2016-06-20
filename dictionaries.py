@@ -14,7 +14,7 @@ print count
 for name in names:
     count[name]=count.get(name,0)+1
 print count
-#most common word in a documentFord
+#most common word in a document
 counter = dict()
 line2=''
 words=''
@@ -45,3 +45,5 @@ print 'dict converted into LIST: ', list(counter)
 print 'This will give a LIST of KEYS in the dictionary: ', counter.keys()
 print 'This will give a LIST of VALUES in the dictionary: ', counter.values()
 print 'This will give a LIST of ITEMS in the dictionary', counter.items()
+stuff = dict()
+print stuff.get('candy',-1)

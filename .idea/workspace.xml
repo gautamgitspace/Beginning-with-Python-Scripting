@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e75397-cbc0-4de5-81ed-78b3271f4c52" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9.4emailSender.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dictionaries.py" afterPath="$PROJECT_DIR$/dictionaries.py" />
     </list>
     <ignored path="pay.iws" />
@@ -23,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dictionaries.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dictionaries.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dictionaries.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9.4emailSender.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9.4emailSender.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -59,6 +71,7 @@
         <option value="$PROJECT_DIR$/dayOfTheWeek.py" />
         <option value="$PROJECT_DIR$/romeo.py" />
         <option value="$PROJECT_DIR$/dictionaries.py" />
+        <option value="$PROJECT_DIR$/9.4emailSender.py" />
       </list>
     </option>
   </component>
@@ -119,24 +132,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.dictionaries">
-    <configuration default="false" name="files7point2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pay" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/files7point2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.9.4emailSender">
     <configuration default="false" name="Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,6 +197,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pay" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionaries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="9.4emailSender" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pay" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.4emailSender.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -340,19 +353,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.files7point2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Lists" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dayOfTheWeek" />
-      <item index="3" class="java.lang.String" itemvalue="Python.romeo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dictionaries" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Lists" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dayOfTheWeek" />
+      <item index="2" class="java.lang.String" itemvalue="Python.romeo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dictionaries" />
+      <item index="4" class="java.lang.String" itemvalue="Python.9.4emailSender" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dictionaries" />
-        <item index="1" class="java.lang.String" itemvalue="Python.romeo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dayOfTheWeek" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Lists" />
-        <item index="4" class="java.lang.String" itemvalue="Python.files7point2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.9.4emailSender" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dictionaries" />
+        <item index="2" class="java.lang.String" itemvalue="Python.romeo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dayOfTheWeek" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Lists" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +420,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/9.4emailSender.py</url>
+          <line>23</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -586,8 +607,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dictionaries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.4emailSender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding />
         </state>
       </provider>
