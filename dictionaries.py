@@ -14,3 +14,22 @@ print count
 for name in names:
     count[name]=count.get(name,0)+1
 print count
+#most common word in a documentFord
+counter = dict()
+line2=''
+words=''
+fileName = raw_input('Enter the name of the file: ')
+try:
+    fileHandle = open(fileName)
+    for line in fileHandle:
+        line2=line2+line
+    words=line2.split()
+    #split() splits a string and produces a list *IMP*
+    print words
+    for word in words:
+        counter[word]=counter.get(word,0)+1
+        #print word + ':' + str(counter[word])
+    print counter
+    print max(counter) + ' appears the most in the file'
+except:
+    print 'The file you are trying to open does not exist'
