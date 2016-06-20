@@ -18,6 +18,8 @@ print count
 counter = dict()
 line2=''
 words=''
+bigWord = None
+bigCount = None
 fileName = raw_input('Enter the name of the file: ')
 try:
     fileHandle = open(fileName)
@@ -25,11 +27,21 @@ try:
         line2=line2+line
     words=line2.split()
     #split() splits a string and produces a list *IMP*
-    print words
     for word in words:
         counter[word]=counter.get(word,0)+1
         #print word + ':' + str(counter[word])
-    print counter
-    print max(counter) + ' appears the most in the file'
+    for key,value in counter.items():
+        print key, value
+        if bigCount is None or value>bigCount:
+            bigCount=value
+            bigWord=key
+    print bigWord + ' appears ' + str(bigCount) + ' times'
 except:
     print 'The file you are trying to open does not exist'
+#Lists of keys and values
+print '\n'
+print counter
+print 'dict converted into LIST: ', list(counter)
+print 'This will give a LIST of KEYS in the dictionary: ', counter.keys()
+print 'This will give a LIST of VALUES in the dictionary: ', counter.values()
+print 'This will give a LIST of ITEMS in the dictionary', counter.items()
