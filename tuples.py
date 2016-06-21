@@ -26,3 +26,20 @@ print ('\nValue Sorted Order: ')
 print 'unsorted: ', m
 m.sort(reverse=True)
 print 'sorted: ', m
+
+#top 10 most common words in romeo.txt
+d=dict()
+l=list()
+m=list()
+fileName = raw_input('Enter the name of the file: ')
+fileHandle = open(fileName)
+for line in fileHandle:
+    words=line.rstrip()
+    l=words.split()
+    for iterator in l:
+        d[iterator]=d.get(iterator,0)+1
+    for key, value in d.items():
+        l.append((value,key))
+l.sort(reverse=True)
+for value, key in l[:10]:
+        print key, value
