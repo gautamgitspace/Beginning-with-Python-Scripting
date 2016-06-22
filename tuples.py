@@ -1,6 +1,12 @@
 #tuples are like lists but are immutables like strings
 #things you can't do to tuples: modify, sort, append, reverse
 #tuples are comparable
+tupA=tuple
+print dir(tupA)
+x = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+y = x.items()
+print y
+
 tupA = (0,1,2)
 tupB = (0,1,2)
 if tupA < tupB:
