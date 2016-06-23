@@ -1,0 +1,3 @@
+import socket
+mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysocket.connect(('128.205.36.35', 3369))
