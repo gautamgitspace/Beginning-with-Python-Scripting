@@ -16,6 +16,19 @@ import socket
 # mysocket.close()
 
 import urllib
+d=dict()
+m=list()
+bigWord = None
+bigCount = None
 pageHandle = urllib.urlopen('http://www.py4inf.com/code/words.txt')
 for line in pageHandle:
-    print line.strip()
+    line=line.strip()
+    words=line.split()
+    for word in words:
+        d[word]=d.get(word,0)+1
+        for key, value in d.items():
+            #print key, value
+            if bigWord is None or value > bigCount:
+                bigCount=value
+                bigWord=key
+print bigWord, bigCount
