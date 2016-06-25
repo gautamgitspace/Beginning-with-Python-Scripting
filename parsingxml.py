@@ -9,7 +9,7 @@ data = '''
    </phone>
    <email hide="yes"/>
 </person>'''
-
+#print data
 print 'parsing 1st snippet\n'
 tree = ET.fromstring(data)
 print 'Name:', tree.find('name').text
@@ -54,7 +54,7 @@ print 'parsing 2nd snippet\n'
 print 'User count:', len(l)
 
 for item in l:
-    print 'Name', item.find('name').text
-    print 'Position', item.find('position').text
-    print 'Team', item.find('team').text
+    print 'Name:', item.find('name').text
+    print 'Position:', item.find('position').text
+    print 'Team:', item.find('team').text
 
