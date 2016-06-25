@@ -20,8 +20,12 @@ while True:
         jsdata = None
     if 'status' not in jsdata or jsdata['status']!='OK':
         print 'could not retrieve'
-    else:
-        print jsdata
-        continue
+    #print json.dumps(jsdata, indent=4)
+    latitude = jsdata["results"][0]["geometry"]["location"]["lat"]
+    longitude = jsdata["results"][0]["geometry"]["location"]["lng"]
+    print 'LATITUDE:', latitude
+    print 'LONGITUDE:', longitude
+    resolvedAddress =  jsdata["results"][0]["formatted_address"]
+    print resolvedAddress
 
 
