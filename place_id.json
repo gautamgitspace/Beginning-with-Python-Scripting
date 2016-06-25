@@ -1,0 +1,89 @@
+{
+    "status": "OK", 
+    "results": [
+        {
+            "geometry": {
+                "location_type": "GEOMETRIC_CENTER", 
+                "bounds": {
+                    "northeast": {
+                        "lat": 39.7133974, 
+                        "lng": -105.0209967
+                    }, 
+                    "southwest": {
+                        "lat": 39.6318008, 
+                        "lng": -105.0279356
+                    }
+                }, 
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.7133974, 
+                        "lng": -105.0209967
+                    }, 
+                    "southwest": {
+                        "lat": 39.6318008, 
+                        "lng": -105.0279356
+                    }
+                }, 
+                "location": {
+                    "lat": 39.6726798, 
+                    "lng": -105.0250535
+                }
+            }, 
+            "formatted_address": "S Federal Blvd, Denver, CO, USA", 
+            "place_id": "ChIJJ8oO7_B_bIcR2AlhC8nKlok", 
+            "address_components": [
+                {
+                    "long_name": "South Federal Boulevard", 
+                    "types": [
+                        "route"
+                    ], 
+                    "short_name": "S Federal Blvd"
+                }, 
+                {
+                    "long_name": "South", 
+                    "types": [
+                        "neighborhood", 
+                        "political"
+                    ], 
+                    "short_name": "South"
+                }, 
+                {
+                    "long_name": "Denver", 
+                    "types": [
+                        "locality", 
+                        "political"
+                    ], 
+                    "short_name": "Denver"
+                }, 
+                {
+                    "long_name": "Denver County", 
+                    "types": [
+                        "administrative_area_level_2", 
+                        "political"
+                    ], 
+                    "short_name": "Denver County"
+                }, 
+                {
+                    "long_name": "Colorado", 
+                    "types": [
+                        "administrative_area_level_1", 
+                        "political"
+                    ], 
+                    "short_name": "CO"
+                }, 
+                {
+                    "long_name": "United States", 
+                    "types": [
+                        "country", 
+                        "political"
+                    ], 
+                    "short_name": "US"
+                }
+            ], 
+            "partial_match": true, 
+            "types": [
+                "route"
+            ]
+        }
+    ]
+}
