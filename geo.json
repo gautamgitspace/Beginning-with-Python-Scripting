@@ -1,0 +1,74 @@
+{
+    "status": "OK", 
+    "results": [
+        {
+            "geometry": {
+                "location_type": "APPROXIMATE", 
+                "bounds": {
+                    "northeast": {
+                        "lat": 42.966455, 
+                        "lng": -78.79515710000001
+                    }, 
+                    "southwest": {
+                        "lat": 42.826023, 
+                        "lng": -78.914247
+                    }
+                }, 
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.966455, 
+                        "lng": -78.79515710000001
+                    }, 
+                    "southwest": {
+                        "lat": 42.826023, 
+                        "lng": -78.914247
+                    }
+                }, 
+                "location": {
+                    "lat": 42.88644679999999, 
+                    "lng": -78.8783689
+                }
+            }, 
+            "address_components": [
+                {
+                    "long_name": "Buffalo", 
+                    "types": [
+                        "locality", 
+                        "political"
+                    ], 
+                    "short_name": "Buffalo"
+                }, 
+                {
+                    "long_name": "Erie County", 
+                    "types": [
+                        "administrative_area_level_2", 
+                        "political"
+                    ], 
+                    "short_name": "Erie County"
+                }, 
+                {
+                    "long_name": "New York", 
+                    "types": [
+                        "administrative_area_level_1", 
+                        "political"
+                    ], 
+                    "short_name": "NY"
+                }, 
+                {
+                    "long_name": "United States", 
+                    "types": [
+                        "country", 
+                        "political"
+                    ], 
+                    "short_name": "US"
+                }
+            ], 
+            "place_id": "ChIJoeXfUmES04kRcYEfGKUEI5g", 
+            "formatted_address": "Buffalo, NY, USA", 
+            "types": [
+                "locality", 
+                "political"
+            ]
+        }
+    ]
+}
