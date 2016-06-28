@@ -6,9 +6,9 @@ print dir(tupA)
 x = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
 y = x.items()
 print y
-
 tupA = (0,1,2)
 tupB = (0,1,2)
+print tupB
 if tupA < tupB:
     print 'true'
 else:
@@ -16,7 +16,7 @@ else:
 #sorting list of tuples: key sorted
 
 d = dict()
-m=list()
+m = list()
 d = {'z': 10, 'b': 20, 'a': 4}
 print '\nKey Value Pairs in dict: '
 for k, v in d.items():

@@ -17,6 +17,7 @@ data = '''
 }'''
 print '\n#1 example - dictionary\n'
 info = json.loads(data)
+print type(info)
 print 'Name:', info["name"]["lastName"]
 print 'Position:', info["position"]["main"]
 
@@ -35,6 +36,7 @@ input = '''
 ]'''
 
 info = json.loads(input)
+print type(info)
 print 'User count:', len(info)
 
 for item in info:
