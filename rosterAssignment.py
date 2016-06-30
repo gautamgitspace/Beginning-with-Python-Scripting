@@ -27,3 +27,15 @@ CREATE TABLE Member (
     PRIMARY KEY (user_id, course_id)
 )
 ''')
+
+fname = raw_input('Enter file name: ')
+if ( len(fname) < 1 ) : fname = 'roster_data.json'
+str_data = open(fname).read()
+json_data = json.loads(str_data)
+
+for entry in json_data:
+
+    name = entry[0];
+    title = entry[1];
+
+    print name, title
